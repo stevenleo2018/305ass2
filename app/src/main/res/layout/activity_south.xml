@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ocean"
+    tools:context="com.example.chengzu.sit305assignment2.southActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="382dp"
+        android:layout_height="203dp"
+        android:text="An elder: Oh,My kid, you are crying, what's happend? \nPrince Leo: i was fishing with my father at here, but my father has been murdered
+\nElder: oh,my pity boy,do not cry, be a brave man, be a real man.\nPrince Leo:Thanks,i will revenge for my father soon."
+        android:textColor="@color/yellow"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="132dp"
+        android:text="Revenge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hunting for survive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13"
+        android:onClick="gosurvive1"/>
+
+</android.support.constraint.ConstraintLayout>
