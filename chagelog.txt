@@ -3,3 +3,4 @@ In addtion, we searched a plenty of resource such as images for the game.
 
 In week 4, we build up the first beta version of the game, it has some basic functions such as intent in Android studio. And 
 It has some playability but not as much as we imaged. There are many steps need us to improve for this game.
+Also, we prepared many candidate functions for our game
