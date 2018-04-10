@@ -3,10 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/game_over"
 
     android:layout_height="match_parent"
     tools:context="com.example.chengzu.sit305assignment2.gameoverActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/source"/>
 
     <Button
         android:id="@+id/button5"
