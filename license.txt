@@ -1,1 +1,6 @@
-From google image ,which is a public domain
+All pictures from drawable folder    Public Domain     Google images
+https://images.google.com/
+
+The function of passing data between activities Public Domain Sanktips
+
+https://www.youtube.com/watch?v=9u6FkCCflhc
