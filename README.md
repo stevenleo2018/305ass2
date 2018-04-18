@@ -35,3 +35,5 @@ directory explannation
 -For wakeup activity, it will show the first activity that prince leo waked up from teh forest after he escaped from Kingdom
 -For Weaponactivity, there are multiple choices for user to choose their favourite weapon.
 -For weaponcreatedactivity, after the Prince leo selected the weapon. they can go to next step. And this activity is mainly -For people to choose weapon that they would like to use.
+
+
