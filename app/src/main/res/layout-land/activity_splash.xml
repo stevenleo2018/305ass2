@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.chengzu.sit305assignment2.SplashActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text=" Poland in 1600.
+
+        The empire has been destroyed by the betraytor at that time. And the king of this country was killed by betrayer. But the son of the old king, prince Leo survived.
+
+        Leo promised that he will revenge to his uncle"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp" />
+</LinearLayout>

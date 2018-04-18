@@ -25,7 +25,12 @@
         <activity android:name=".eastActivity" />
         <activity android:name=".westActivity" />
         <activity android:name=".southActivity" />
-        <activity android:name=".NorthActivity"></activity>
+        <activity android:name=".NorthActivity" />
+        <activity android:name=".RevengeActivity" />
+        <activity android:name=".AppointmentActivity" />
+        <activity android:name=".DatabaseHelper" />
+        <activity android:name=".EditDataActivity" />
+        <activity android:name=".ListDataActivity"></activity>
     </application>
 
 </manifest>

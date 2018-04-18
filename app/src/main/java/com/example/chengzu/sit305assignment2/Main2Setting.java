@@ -1,8 +1,11 @@
 package com.example.chengzu.sit305assignment2;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -11,6 +14,7 @@ public class Main2Setting extends AppCompatActivity {
     Button bt_on;
     Button bt_off;
     MediaPlayer mp;
+    boolean check = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +27,12 @@ public class Main2Setting extends AppCompatActivity {
         bt_on.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(check){
                 mp = MediaPlayer.create(Main2Setting.this, R.raw.merrychristmas);
                 mp.start();
+                check = false;
+                }
+
             }
         });
 
@@ -32,8 +40,24 @@ public class Main2Setting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mp.stop();
+                check = true;
             }
         });
 
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu manu){
+        getMenuInflater().inflate(R.menu.main,manu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id=item.getItemId();
+        if(id==R.id.id_profile){
+            Intent intentprofile=new Intent(Main2Setting.this, MainActivity.class);
+            startActivity(intentprofile);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);}
 }

@@ -13,8 +13,6 @@
         android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="4dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Nothing but desert"
@@ -22,7 +20,9 @@
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="386dp" />
+        tools:layout_editor_absoluteY="386dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="4dp" />
 
     <Button
         android:id="@+id/button16"
