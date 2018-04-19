@@ -2,7 +2,7 @@
 
     Sit305 team
     Student ID: 
-    •	Chengzu Dong (215392074)
+    • Chengzu Dong (215392074)
     • Yinneng Du(216212265)
 Henry comments 13/April
 
