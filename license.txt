@@ -2,5 +2,7 @@ All pictures from drawable folder    Public Domain     Google images
 https://images.google.com/
 
 The function of passing data between activities   Public Domain     Sanktips
-
 https://www.youtube.com/watch?v=9u6FkCCflhc
+
+Read text file from assets folder in Android studio    Public Domain    Tihomir 
+https://www.youtube.com/watch?v=1CHDASXojNQ
