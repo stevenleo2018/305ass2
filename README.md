@@ -1,6 +1,9 @@
-305ass2
+305ass2 assignment2
 
-assignment2
+    Sit305 team
+    Student ID: 
+    •	Chengzu Dong (215392074)
+    • Yinneng Du(216212265)
 Henry comments 13/April
 
     "great" isn't a very good commit comment :)
