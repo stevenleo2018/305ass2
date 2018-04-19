@@ -75,5 +75,9 @@ public class AppointmentActivity extends AppCompatActivity {
     }
 
 
+    public void gotolist(View view) {
+        Intent intent = new Intent(AppointmentActivity.this, ListDataActivity.class);
+        startActivity(intent);
+    }
 }
 

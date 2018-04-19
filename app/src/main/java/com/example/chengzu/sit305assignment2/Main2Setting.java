@@ -14,6 +14,7 @@ public class Main2Setting extends AppCompatActivity {
     Button bt_on;
     Button bt_off;
     MediaPlayer mp;
+    boolean check = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +27,12 @@ public class Main2Setting extends AppCompatActivity {
         bt_on.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(check){
                 mp = MediaPlayer.create(Main2Setting.this, R.raw.merrychristmas);
                 mp.start();
+                check = false;
+                }
+
             }
         });
 
@@ -35,6 +40,7 @@ public class Main2Setting extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mp.stop();
+                check = true;
             }
         });
 
