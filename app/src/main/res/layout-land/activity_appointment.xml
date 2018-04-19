@@ -41,6 +41,7 @@
             android:layout_centerHorizontal="true"
             android:background="@color/white"
             android:text="Log in"
+
             android:onClick="gotolist"
 
 
