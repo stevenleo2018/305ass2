@@ -55,6 +55,8 @@ Directory Structure
     Then go back to res,in the mipmap, where stored our app icon.
     Then go back to res,click values. where storeed our colors,strings and styles.
     
+   For image and distribution
+    
     you can find the resources and images that stored on my project from the res folder------>drawable. In drawable folder, you can find all of the images.
     you can find the all layouts from res folder---->layout folder
     in the res folder------->menu folder, you can find the xml that I made for menu
