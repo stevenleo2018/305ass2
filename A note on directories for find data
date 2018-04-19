@@ -1,1 +1,10 @@
-
+The way to find our data and important code
+First, click app---->src---->main
+In the main folder, you can click jajva/com/example/chengzu/sit305assignment2, then you can find the important code that
+is made for activities.
+Then go back to main folder, click res
+Then you can click drawable, you will see our image resource from there.
+Then go back to res, cick layout, you can see our layout resource file.
+Then go back to res,click menu,from there. you can see our menu.
+Then go back to res,in the mipmap, where stored our app icon.
+Then go back to res,click values. where storeed our colors,strings and styles.
