@@ -1,20 +1,22 @@
 
 March 19th
 ====================================
-* We made some basic functions from week3. Also, we designed an attractive story as the background story for this game. In addition, we searched a plenty of resource such as images for the game.[Chengzu Dong] And[Yinneng Du] created a plan for his part of works.
+* [Chengzu Dong] and [Yinneng Du] made some basic functions from week3. Also, [Chengzu Dong] designed an attractive story as the background story for this game. In addition, [Chengzu Dong] searched a plenty of resource such as images for the game. And[Yinneng Du] created a plan for his part of works.
 
 March 26th
 ====================================
-* In week 4, we build up the first beta version of the game, it has some basic functions such as intent in Android studio. And 
-It has some playability but it is still not completed version. There are many steps need us to improve for this game.
-Also, we prepared many candidate functions for our game.[Chengzu Dong]. And [Yinneng Du] has done the music function, which can start and pause the music by clicking button.
+* In week 4, [Chengzu Dong]build up the first beta version of the game, it has some basic functions such as intent in Android studio. And it has some playability but it is still not completed version. There are many steps need us to improve for this game.
+Also, [Chengzu Dong] and [Yinneng Du]  prepared many candidate functions for our game. 
+[Yinneng Du] has done the music function, which can start and pause the music by clicking button.
 
 April 10th
 ====================================
-* In week 5, we have finished the function of GIF and we made the app icon.[Yin neng Du] We create the function that passing data from one activity 
-to another. And we tried to store data in external file. But we have not successes. And we failed to load and store data.
-However, we will keep going to try. Because we just used half of time of this project.[Chengzu Dong]
+* In week 5, [Yin neng Du] has finished the function of GIF and we made the app icon. 
+[Chengzu Dong] create the function that passing data from one activity 
+to another. And [Chengzu Dong] and [Yin neng Du]  tried to store data in external file. But have not successes. And we failed to load and store data.
+However, we will keep going to try. Because we just used half of time of this project.
 
 April 16th
 ====================================
-* In week 6, We want to the fighting process(battle) becoming more interesting. Therefore, we design the unique circumstance that fighting between the prince Leo and King. They will not fight as the traditional RPG text-based game. We considered a new way to increase the playability of our game.[Chengzu Dong] Also, We start to build the landscape layout for finished activityies.[Yin neng Du]
+* In week 6, [Chengzu Dong]  want to the fighting process(battle) becoming more interesting. Therefore, [Chengzu Dong]  design the unique circumstance that fighting between the prince Leo and King. They will not fight as the traditional RPG text-based game. [Chengzu Dong]  considered a new way to increase the playability of our game. 
+Also, [Yin neng Du] start to build the landscape layout for finished activityies.
