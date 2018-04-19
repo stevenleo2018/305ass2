@@ -85,91 +85,91 @@ Directory Structure
 Data Structure
     
     Wake Up:
-[
-{“id”: “BackgroundText1”, “text”: "        
-Hello, dear player, you will play the role of prince Leo on this game, good luck!
+    [
+    {“id”: “BackgroundText1”, “text”: "        
+    Hello, dear player, you will play the role of prince Leo on this game, good luck!
         	Prince Leo wake up in the forest, you had escaped from your country, all of your army dead for protecting you.
         	Now you feel very hungry, you have to choose an option, hunting or waiting for your servant.
         	Remember! You are not prince anymore."
-}
-{“id”: “button”, “character”: “player”, “answers”:
+    }
+    {“id”: “button”, “character”: “player”, “answers”:
 		[
 			{“button”: “Hunting”, “GoTo”: “Weapon”}
 			{“button”: “Waiting”, “GoTo”: “GameOver”}
 		]
-}
-]
+    }
+    ]
 
 
-Weapon:
-[
-{“id”: “Text2”, “text”: Before hunting, you should make a weapon to equip yourself. Now, choose which weapon would you like."}
-{“id”: “button”, “character”: “player”, “answer”:
+    Weapon:
+    [
+    {“id”: “Text2”, “text”: Before hunting, you should make a weapon to equip yourself. Now, choose which weapon would you like."}
+    {“id”: “button”, “character”: “player”, “answer”:
 	[
 		{“button”: “Sword”, “GoTo”: “WeaponCreated”}
 		{“button”: “Bow”, “GoTo”: “WeaponCreated”}
 		{“button”: “Spear”, “GoTo”: “WeaponCreated”}
-]
-}
-]
+    ]
+    }
+    ]
 
 
-WeaponCreated:
-[
-{“id”: “Text3”, “text”: “Great! You have made your weapon. Now, go to hunt, enjoy!”}
-	{“id”: “button”, “character”: “player”, “answer”:
+    WeaponCreated:
+    [
+    {“id”: “Text3”, “text”: “Great! You have made your weapon. Now, go to hunt, enjoy!”}
+    	{“id”: “button”, “character”: “player”, “answer”:
 		[
 			{“button”: “Go East”, “GoTo”: “East”}
 			{“button”: “Go West”, “GoTo”: “West”}
 			{“button”: “Go South”, “GoTo”: “South”}
 			{“button”: “Go North”, “GoTo”: “North”}
 		]
-}
-]
-East
-[
-{“id”: “Text4”, “text”: “You saw your country, you were the prince of this kingdom. What do you want to do now?”}
-{“id”: “button”, “character”: “player”, “answer”:
+        }
+    ]
+                East
+            [
+        {“id”: “Text4”, “text”: “You saw your country, you were the prince of this kingdom. What do you want to do now?”}
+    {“id”: “button”, “character”: “player”, “answer”:
 	[
 		{“button”: “GoToRevenge”, “GoTo”: “Revenge”}
 		{“button”: “HuntingForSurvive”, “GoTo”: “WeaponCreated”}
-]
-}
-]
+                ]
+            }
+        ]
 
 
-West
-[
-	{“id”: “Text5”, “text”: “Great. you successfully hunted, enjoy your chicken dinner!”}
+    West
+    [
+	   {“id”: “Text5”, “text”: “Great. you successfully hunted, enjoy your chicken dinner!”}
 	{“id”: “button”, “character”: “player”, “answer”:
 		[
 			{“button”: “EnjoyYourChickenDinner”, “GoTo”: “WeaponCreated”}
 		]
-}
-]
+    }
+    ]
 
-South
-[
+    South
+    [
 	{“id”: “Text6”, “text”: “
-An elder: Oh, my kid, you are crying, what's happened? 
-Prince Leo: I was fishing with my father at here, but my father has been murdered
-Elder: oh, my pity boy, do not cry, be a brave man, be a real man.
-Prince Leo: Thanks, I will revenge for my father soon.”}
-	{“id”: “button”, “character”: “player”, “answer”:
+    An elder: Oh, my kid, you are crying, what's happened? 
+    Prince Leo: I was fishing with my father at here, but my father has been murdered
+    Elder: oh, my pity boy, do not cry, be a brave man, be a real man.
+    Prince Leo: Thanks, I will revenge for my father soon.”}
+	   {“id”: “button”, “character”: “player”, “answer”:
 		[
 		{“button”: “Revenge”, “GoTo”: “Revenge”}
 		{“button”: “HuntingForSurvive”, “GoTo”: “WeaponCreated”}
 		]
-}
-]
+    }
+    ]
 
-North
-[
+    North
+    [
 	{“id”: “Text7”, “text”: “Nothing but desert"}
 	{“id”: “button”, “character”: “player”, “answer”:
 		[
 			{“button”: “Hunting”, “GoTo”: “WeaponCreated”}
-]
-}
-]
+    ]
+    }
+    ]
 
