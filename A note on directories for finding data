@@ -1,4 +1,13 @@
 The way to find our data and important code
+For game data
+First, click app---->src---->main
+In the main folder, you can click assets, then click data.txt
+Inside of data.txt is our game data.
+You can modify oue game data in the data.txt, and it also will be changed on our game.
+Because this paragraphy is a part of our dialogue in the game.
+
+
+For improtant code
 First, click app---->src---->main
 In the main folder, you can click jajva/com/example/chengzu/sit305assignment2, then you can find the important code that
 is made for activities.
