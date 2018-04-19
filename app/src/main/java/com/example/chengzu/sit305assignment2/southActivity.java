@@ -33,4 +33,9 @@ public class southActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);}
+
+    public void gorevenge(View view) {
+        Intent intentprofile=new Intent(southActivity.this, RevengeActivity.class);
+        startActivity(intentprofile);
+    }
 }

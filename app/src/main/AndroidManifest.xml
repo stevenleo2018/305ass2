@@ -30,7 +30,8 @@
         <activity android:name=".AppointmentActivity" />
         <activity android:name=".DatabaseHelper" />
         <activity android:name=".EditDataActivity" />
-        <activity android:name=".ListDataActivity"></activity>
+        <activity android:name=".ListDataActivity" />
+        <activity android:name=".AttackActivity"></activity>
     </application>
 
 </manifest>

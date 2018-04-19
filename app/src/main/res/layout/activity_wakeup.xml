@@ -16,7 +16,7 @@ tools:context="com.example.chengzu.sit305assignment2.wakeupActivity">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
-    android:text="        Hello, dear player, you will play the role of prince Leo on this game, good luck!
+    android:text="        Hello, dear player, you will play the role of prince Leo on this game, good luck!\n
         Prince Leo wake up in the forest, you had escaped from your country, all of your army dead for protecting you.
 Now you feels very hungry, you have to choose a option, hunting or waiting for your servent.
 Remember ! You are not prince anymore.
