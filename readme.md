@@ -29,7 +29,7 @@ directory explanation
 
 # Directory Structure
 - After you opened the project, you will see the directory in the project clearly.
-- you can find the resources and images that stored on my project from the res folder------>>drawable. In drawable folder, you can find all of the images.
+- you can find the resources and images that stored on my project from the res folder------>drawable. In drawable folder, you can find all of the images.
 - you can find the all layouts from res folder---->layout folder
 - in the res folder------->menu folder, you can find the xml that I made for menu
 - in the res folder-------> mipmap folder, you can find where our app icon is
@@ -50,5 +50,5 @@ directory explanation
 - For Splashscreen activity, it will show the splash screen for second when user open the game
 - For wakeup activity, it will show the first activity that prince leo waked up from teh forest after he escaped from Kingdom
 - For Weaponactivity, there are multiple choices for user to choose their favourite weapon.
-- For weaponcreatedactivity, after the Prince leo selected the weapon. they can go to next step. And this activity is mainly -For people to choose weapon that they would like to use.
+- For weaponcreatedactivity, after the Prince leo selected the weapon. they can go to next step. And this activity is mainly - For people to choose weapon that they would like to use.
 
