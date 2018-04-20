@@ -3,7 +3,7 @@
     Sit305 team
     Student ID: 
     • Chengzu Dong (215392074)
-    • Yinneng Du(216212265)
+    • Yinneng Du (216212265)
 Henry comments 13/April
 
     "great" isn't a very good commit comment :)
@@ -23,7 +23,7 @@ Compile instructions
     Then select Android studio as the open method
     After that you have open my project, just simply click green triangle shape that located in the right top corner of the page.
     Then select a virtual machine and click ok button to run the app
-    If there is not virtual machine then create one from the phone or tablet. It does not matter, because the game support both of them. Also, the game support landscape display.
+    If there is not virtual machine then create one from the phone or tablet. It does not matter, because the game support both of them.     Also, the game support landscape display.
     Then click next button, choose a recommended system image then click next button
     Now click finish then you have done, enjoy to run the game directory explanation
 
@@ -57,13 +57,13 @@ Directory Structure
     
    For image and distribution
     
-    you can find the resources and images that stored on my project from the res folder------>drawable. In drawable folder, you can find all of the images.
+    you can find the resources and images that stored on my project from the res folder------>drawable. In drawable folder, you can find     all of the images.
     you can find the all layouts from res folder---->layout folder
     in the res folder------->menu folder, you can find the xml that I made for menu
     in the res folder-------> mipmap folder, you can find where our app icon is
     In the java folder, you will there are many activities.
     For AttackActivity, it is created for the battle processing. we just finished the basic dialog for it now. We will do more soon.
-    For AppointmentActivity, which is made for the login process, it can save the use name and data. Even they have closed the game, they are still able to load their game through their stored username.
+    For AppointmentActivity, which is made for the login process, it can save the use name and data. Even they have closed the game,         they are still able to load their game through their stored username.
     For DatabaseHelper, it is made for helping data store and load and modify. It is based on the SQL query.
     For eastActivity,it will show the navigation to east and what player will see if they go east.
     For westActivity,it will show the navigation to east and what player will see if they go east.
@@ -78,7 +78,7 @@ Directory Structure
     For Splashscreen activity, it will show the splash screen for second when user open the game
     For wakeup activity, it will show the first activity that prince leo waked up from teh forest after he escaped from Kingdom
     For Weaponactivity, there are multiple choices for user to choose their favourite weapon.
-    For weaponcreatedactivity, after the Prince leo selected the weapon. they can go to next step. And this activity is mainly for people to choose weapon that they would like to use.
+    For weaponcreatedactivity, after the Prince leo selected the weapon. they can go to next step. And this activity is mainly for           people to choose weapon that they would like to use.
     
     
 
