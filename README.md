@@ -31,7 +31,7 @@ Directory Structure
 
     After you opened the project, you will see the directory in the project clearly.
     
-    The way to find our data and important code
+    The way to find our data and important code has been shown below
 
     
    For game data
