@@ -20,3 +20,8 @@ April 16th
 ====================================
 * In week 6, [Chengzu Dong]  want to the fighting process(battle) becoming more interesting. Therefore, [Chengzu Dong]  design the unique circumstance that fighting between the prince Leo and King. They will not fight as the traditional RPG text-based game. [Chengzu Dong]  considered a new way to increase the playability of our game. 
 Also, [Yin neng Du] start to build the landscape layout for finished activityies.
+
+April 26th
+====================================
+* In week7,[Chengzu Dong] created the new data files for sotring more data.And [Chengzu Dong] made the new activities and layouts for creating more functions such as the process of battle, which is very creative. [Yin neng Du] is doing the layout of portrait and landscape for tablet.
+And we start to pay mroe attention to the playability for the game.
