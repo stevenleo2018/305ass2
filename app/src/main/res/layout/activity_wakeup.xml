@@ -12,14 +12,11 @@ android:layout_height="match_parent"
 android:background="@drawable/wakeup"
 tools:context="com.example.chengzu.sit305assignment2.wakeupActivity">
 <TextView
-    android:id="@+id/textView2"
+    android:id="@+id/tv_text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
-    android:text="        Hello, dear player, you will play the role of prince Leo on this game, good luck!\n
-        Prince Leo wake up in the forest, you had escaped from your country, all of your army dead for protecting you.
-Now you feels very hungry, you have to choose a option, hunting or waiting for your servent.
-Remember ! You are not prince anymore.
+    android:text="
 "
     android:textColor="@color/white"/>
 
@@ -28,14 +25,11 @@ Remember ! You are not prince anymore.
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginEnd="36dp"
+        android:onClick="gotohunt"
         android:text="Hunting"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintHorizontal_bias="0.168"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="gotohunt"/>
+        app:layout_constraintEnd_toStartOf="@+id/button4" />
 
     <Button
         android:id="@+id/button4"
@@ -47,5 +41,18 @@ Remember ! You are not prince anymore.
         android:text="Waiting"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/b_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:text="Hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

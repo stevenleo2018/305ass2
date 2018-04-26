@@ -8,39 +8,49 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="321dp"
-        android:layout_height="349dp"
+        android:layout_width="326dp"
+        android:layout_height="325dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text"
         app:srcCompat="@drawable/chicken" />
 
     <TextView
-        android:textSize="20dp"
-        android:textColor="@color/red"
-        android:id="@+id/textView6"
+        android:id="@+id/tv_text"
         android:layout_width="344dp"
         android:layout_height="67dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="Great.you successfully hunted, enjoy your chicken dinner!"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textColor="@color/red"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="4dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="goback"
+        android:text="Back to shelter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_read" />
+
+    <Button
+        android:id="@+id/b_read"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:text="Enjoy your chicken dinner"
+        android:text="Have a look"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        android:onClick="goback"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </android.support.constraint.ConstraintLayout>

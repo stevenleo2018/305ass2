@@ -8,13 +8,15 @@
     tools:context="com.example.chengzu.sit305assignment2.southActivity">
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/tv_text"
         android:layout_width="382dp"
         android:layout_height="203dp"
-        android:text="An elder: Oh,My kid, you are crying, what's happend? \nPrince Leo: i was fishing with my father at here, but my father has been murdered
-\nElder: oh,my pity boy,do not cry, be a brave man, be a real man.\nPrince Leo:Thanks,i will revenge for my father soon."
+        android:layout_marginTop="8dp"
+        android:text=""
         android:textColor="@color/yellow"
-        android:textSize="17dp" />
+        android:textSize="17dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
 
     <Button
         android:id="@+id/button13"
@@ -22,12 +24,12 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="40dp"
+        android:onClick="gorevenge"
         android:text="Revenge"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        android:onClick="gorevenge"/>
+        app:layout_constraintTop_toBottomOf="@+id/b_read" />
 
     <Button
         android:id="@+id/button14"
@@ -35,11 +37,23 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="36dp"
+        android:onClick="gosurvive1"
         android:text="Hunting for survive"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button13"
-        android:onClick="gosurvive1"/>
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/b_read"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Look around"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text" />
 
 </android.support.constraint.ConstraintLayout>
