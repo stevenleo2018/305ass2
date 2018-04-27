@@ -17,6 +17,12 @@ Henry comments 17/April
     Changelog needs fixing (I made comments in there).
     data/ should be a directory (as you'll no doubt have many data files, not just one).
 
+# Henry comments 27/April
+- Good to see progress. Though your game needs a lot more time spent in it.
+- Also your data file doesn't seem to have any readable format? How to you parse this data into classes?
+
+
+
 Compile instructions
 
     The first step is that click my folder and choose build.gradle.
