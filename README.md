@@ -46,7 +46,8 @@ Directory Structure
     In the main folder, you can click assets, then click data.txt
     Inside of data.txt is our game data.
         You can modify oue game data in the data.txt, and it also will be changed on our game.
-    Because this paragraphy is a part of our dialogue in the game.
+    Because this paragraphy is a part of our dialogue in the game. The data will be retrieved from
+    data.txt for the dialogue in the game. 
 
 
    For improtant code
