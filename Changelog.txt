@@ -23,5 +23,5 @@ Also, [Yin neng Du] start to build the landscape layout for finished activityies
 
 April 26th
 ====================================
-* In week7,[Chengzu Dong] created the new data files for sotring more data.And [Chengzu Dong] made the new activities and layouts for creating more functions such as the process of battle, which is very creative. [Yin neng Du] is doing the layout of portrait and landscape for tablet.
+* In week7,[Chengzu Dong] created the new data files for sotring more data.And [Chengzu Dong] made the new activities and layouts for creating more functions such as the process of battle, which is very creative. And [Chengzu Dong] made the strategies for the game. it many increase the playability of the game. [Yin neng Du] is doing the layout of portrait and landscape for tablet.
 And we start to pay mroe attention to the playability for the game.
