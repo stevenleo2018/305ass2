@@ -31,7 +31,8 @@
         <activity android:name=".DatabaseHelper" />
         <activity android:name=".EditDataActivity" />
         <activity android:name=".ListDataActivity" />
-        <activity android:name=".AttackActivity"></activity>
+        <activity android:name=".AttackActivity" />
+        <activity android:name=".StrategyActivity"></activity>
     </application>
 
 </manifest>

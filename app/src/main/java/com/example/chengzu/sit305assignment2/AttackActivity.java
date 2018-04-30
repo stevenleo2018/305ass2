@@ -44,7 +44,7 @@ public class AttackActivity extends AppCompatActivity {
         tv2 = (TextView) findViewById(R.id.textView5);
 
         tv.setText("The number of soldiers you have:"+getIntent().getStringExtra("NAME"));
-        tv1.setText("Great! You got enough soldiers. Attack now! ");
+        tv1.setText("Great! You got soldiers for help. Attack now! ");
         tv2.setText(getIntent().getStringExtra("DESCRIPTION"));
     }
 }
