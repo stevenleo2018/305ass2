@@ -216,4 +216,5 @@ Grading creteria
 Still working on for current features:
 portrait and landscap layouts for tablet
 25 eahc day Git hub commits
+reform the final battle between the king with prince leo
 demo video
