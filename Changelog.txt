@@ -1,7 +1,14 @@
 
 March 19th
 ====================================
-* [Chengzu Dong] and [Yinneng Du] made some basic functions from week3. Also, [Chengzu Dong] designed an attractive story as the background story for this game and  [Chengzu Dong] designed the map of the game. In addition, [Chengzu Dong] searched a plenty of resource such as images for the game. 
+* [Chengzu Dong] and [Yinneng Du] made some basic functions from week3. Also, [Chengzu
+
+Dong] designed an attractive story as the background story for this game and  [Chengzu
+
+Dong] designed the map of the game. In addition, [Chengzu Dong] searched a plenty of
+
+resource such as images for the game. 
+
 And[Yinneng Du] created a plan for his part of works.
 To sum up, in week 3 we have done the part of design for map of the game in the milestone 1.We have not finished the programming the structure of the world of the game and build the home screenin the milestone 3.
 
