@@ -34,7 +34,6 @@ menu bar
 navigation
 
 
-
 March 26th
 ====================================
 * In week 4, [Chengzu Dong]build up the first beta version of the game, it has some 
