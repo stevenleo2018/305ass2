@@ -11,6 +11,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class AppointmentActivity extends AppCompatActivity {
+// which is the activity that enable user to login and save their user name
+    // user can login to this game through their previous stored account
+    //Also, it will remind user whether they have save their username or not
 
     // variables
     private static final String TAG = "AppointmentActivity";
@@ -58,12 +61,12 @@ public class AppointmentActivity extends AppCompatActivity {
 
     }
 
-    //insert and add data
+    //insert and add data to database, also it will prompt the alert message
     public void AddData(String newEntry) {
         boolean insertData = mDatabaseHelper.addData(newEntry);
 
         if (insertData) {
-            toastMessage("Saving appointment event successfully!");
+            toastMessage("Saving Username successfully!");
         } else {
             toastMessage("error message");
         }

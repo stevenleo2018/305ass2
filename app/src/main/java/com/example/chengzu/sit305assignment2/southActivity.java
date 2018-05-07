@@ -21,6 +21,11 @@ public class southActivity extends AppCompatActivity {
         setContentView(R.layout.activity_south);
         b_read = (Button) findViewById(R.id.b_read);
         tv_text = (TextView) findViewById(R.id.tv_text);
+
+        /* retrieve data from external data text file, which data file has been stored in the
+         text file, and i can save load and modify the data from data text file.
+         and i have many data text files that can help me to store different dialogues
+         in different data text files. */
         b_read.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
