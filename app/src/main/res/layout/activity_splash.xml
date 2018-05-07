@@ -14,11 +14,7 @@ tools:context="com.example.chengzu.sit305assignment2.SplashActivity">
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text=" Poland in 1600.
-
-The empire has been destroyed by the betraytor at that time. And the king of this country was killed by betrayer. But the son of the old king, prince Leo survived.
-
-Leo promised that he will revenge to his uncle"
+        android:text="Poland in 1600.\nThe empire has been destroyed by the betraytor at that time. And the king of this country was killed by betrayer. But the son of the old king, prince Leo survived.\nLeo promised that he will revenge to his uncle"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="30dp" />

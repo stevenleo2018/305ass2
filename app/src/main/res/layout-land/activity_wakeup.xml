@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-
-
-
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,14 +7,11 @@
     android:background="@drawable/wakeup"
     tools:context="com.example.chengzu.sit305assignment2.wakeupActivity">
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="        Hello, dear player, you will play the role of prince Leo on this game, good luck!
-        Prince Leo wake up in the forest, you had escaped from your country, all of your army dead for protecting you.
-Now you feels very hungry, you have to choose a option, hunting or waiting for your servent.
-Remember ! You are not prince anymore.
+        android:text="
 "
         android:textColor="@color/white"/>
 
@@ -27,26 +19,35 @@ Remember ! You are not prince anymore.
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:onClick="gotohunt"
         android:text="Hunting"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintHorizontal_bias="0.168"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="gotohunt"/>
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/button4"
+        android:layout_toEndOf="@id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_marginBottom="8dp"
-        android:layout_marginRight="32dp"
+        android:layout_centerHorizontal="true"
         android:onClick="Gotodie"
         android:text="Waiting"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-    />
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/b_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Hint"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/button4"
+        android:layout_toStartOf="@id/button4"
+        android:layout_marginRight="20dp"/>
+
+</RelativeLayout>

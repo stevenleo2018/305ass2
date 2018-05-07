@@ -1,22 +1,219 @@
 
 March 19th
 ====================================
-* [Chengzu Dong] and [Yinneng Du] made some basic functions from week3. Also, [Chengzu Dong] designed an attractive story as the background story for this game. In addition, [Chengzu Dong] searched a plenty of resource such as images for the game. And[Yinneng Du] created a plan for his part of works.
+* [Chengzu Dong] and [Yinneng Du] made some basic functions from week3. Also, [Chengzu
+Dong] designed an attractive story as the background story for this game and  [Chengzu
+Dong] designed the map of the game. In addition, [Chengzu Dong] searched a plenty of
+resource such as images for the game. 
+And[Yinneng Du] created a plan for his part of works.
+To sum up, in week 3 we have done the part of design for map of the game in the
+milestone 1.We have not finished the programming the structure of the world of the game
+and build the home screenin the milestone 3.
+
+All new feature added:
+Intent between two activities
+attractive story
+images of the game
+map of the game
+
+Still working on for current features:
+splash screen
+game background music
+app icon
+Gif in Android studio
+passing data between activities
+store,load and modify data from external text files
+landsape for the phone layout, portrait and landscap layouts for tablet
+Grading creteria
+Changelog
+Readme
+license file
+25 eahc day Git hub commits
+demo video
+menu bar
+navigation
+
 
 March 26th
 ====================================
-* In week 4, [Chengzu Dong]build up the first beta version of the game, it has some basic functions such as intent in Android studio. And it has some playability but it is still not completed version. There are many steps need us to improve for this game.
+* In week 4, [Chengzu Dong]build up the first beta version of the game, it has some 
+
+basic functions such as intent in Android studio and splash screen. And it has some 
+playability but it is still not completed version. There are many steps need us to
+improve for this game.
 Also, [Chengzu Dong] and [Yinneng Du]  prepared many candidate functions for our game. 
-[Yinneng Du] has done the music function, which can start and pause the music by clicking button.
+[Yinneng Du] has done the music function, which can start and pause the music by 
+clicking button.
+To sum up, in week 4 we have done all the parts in milestone 1. Which include the design 
+for map of the game and programming the structure of the world of the game and build the 
+home screen. And we are starting to do the milestone 2. which is fundamental game 
+running, user can control the character by clicking the command buttons.
+
+All new feature added:
+Intent between two activities
+attractive story
+images of the game
+map of the game
+splash screen
+game background music
+Changelog
+Readme
+license file
+
+Still working on for current features:
+app icon
+Gif in Android studio
+passing data between activities
+store,load and modify data from external text files
+landsape for the phone layout, portrait and landscap layouts for tablet
+Grading creteria
+25 eahc day Git hub commits
+demo video
+menu bar
+navigation
+
 
 April 10th
 ====================================
 * In week 5, [Yin neng Du] has finished the function of GIF and we made the app icon. 
 [Chengzu Dong] create the function that passing data from one activity 
-to another. And [Chengzu Dong] and [Yin neng Du]  tried to store data in external file. But have not successes. And we failed to load and store data.
+to another. And [Chengzu Dong] and [Yin neng Du]  tried to store data in external file. 
+But have not successes. And we failed to load and store data.
 However, we will keep going to try. Because we just used half of time of this project.
+
+To sum up, [Chengzu Dong] have done the part of designing the hint in the game and 
+design
+the navigation for the game and it related one of the milestone 2. Making sure users can 
+get different content when they will go to different direction. Also, building the game 
+environment and background through using Android studio.
+And in week 5 we have pretty much done the milestone, which should be done in week 8. we 
+completed it before the planned day.   
+
+All new feature added:
+Intent between two activities
+attractive story
+images of the game
+map of the game
+splash screen
+game background music
+Changelog
+Readme
+license file
+app icon
+Gif in Android studio
+passing data between activities
+menu bar
+
+Still working on for current features:
+store,load and modify data from external text files
+landsape for the phone layout, portrait and landscap layouts for tablet
+Grading creteria
+25 eahc day Git hub commits
+demo video
+navigation
 
 April 16th
 ====================================
-* In week 6, [Chengzu Dong]  want to the fighting process(battle) becoming more interesting. Therefore, [Chengzu Dong]  design the unique circumstance that fighting between the prince Leo and King. They will not fight as the traditional RPG text-based game. [Chengzu Dong]  considered a new way to increase the playability of our game. 
+* In week 6, [Chengzu Dong]  want to the fighting process(battle) becoming more 
+interesting. Therefore, [Chengzu Dong]  design the unique circumstance that fighting 
+between the prince Leo and King. They will not fight as the traditional RPG text-based 
+game. [Chengzu Dong]  considered a new way to increase the playability of our game. 
 Also, [Yin neng Du] start to build the landscape layout for finished activityies.
+To sum up, we aimed to complete the game before week 8. Because our working is very fast 
+and efficient. We have known some people they even did not start yet. And for completing 
+the milestone 3 we need to finish the game first. Then we will consider what kind of 
+functions we need to add and what kind of parts we need to improve.
+
+All new feature added:
+Intent between two activities
+attractive story
+images of the game
+map of the game
+splash screen
+game background music
+Changelog
+Readme
+license file
+app icon
+Gif in Android studio
+passing data between activities
+menu bar
+navigation
+store,load and modify data from external text files
+
+Still working on for current features:
+landsape for the phone layout, portrait and landscap layouts for tablet
+Grading creteria
+25 eahc day Git hub commits
+demo video
+
+
+April 26th
+====================================
+* In week 7,[Chengzu Dong] created the new data files for sotring more data.And [Chengzu 
+Dong] made the new activities and layouts for creating more functions such as the 
+process of battle, which is very creative. And [Chengzu Dong] made the strategies for 
+the game. it many increase the playability of the game. [Yin neng Du] is doing the 
+layout of portrait and landscape for tablet.
+And we start to pay mroe attention to the playability for the game.
+To sum up, we have completed the game before week 10, which is the due day for last 
+milstone. And as we have done all the milestone before week 7, we will start to look at
+bugs and functions that we still need to fix and imrpove.
+
+All new feature added:
+Intent between two activities
+attractive story
+images of the game
+map of the game
+splash screen
+game background music
+Changelog
+Readme
+license file
+app icon
+Gif in Android studio
+passing data between activities
+menu bar
+navigation
+store,load and modify data from external text files
+landsape for the phone layout
+
+Still working on for current features:
+portrait and landscap layouts for tablet
+Grading creteria
+25 eahc day Git hub commits
+demo video
+
+April 30th
+====================================
+* In week 8,[Chengzu Dong] is making the final battle activity and more data into the 
+external data files. Also, [Chengzu Dong] wrote the grading criteira for aimed mark. And 
+[Yin neng Du] is still doing the layout of portrait and landscape for tablet.
+To sum up, in week 8. We are aiming to imrpove the playability for the game. Because for 
+HD, we to need make sure our game can be played around 10 hours. Therefore, we will 
+maximise the playability after we completed the milestones. 
+
+All new feature added:
+Intent between two activities
+attractive story
+images of the game
+map of the game
+splash screen
+game background music
+Changelog
+Readme
+license file
+app icon
+Gif in Android studio
+passing data between activities
+menu bar
+navigation
+store,load and modify data from external text files
+landsape for the phone layout
+Grading creteria
+
+Still working on for current features:
+portrait and landscap layouts for tablet
+25 eahc day Git hub commits
+reform the final battle between the king with prince leo
+demo video

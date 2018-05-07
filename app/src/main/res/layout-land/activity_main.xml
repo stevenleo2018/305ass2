@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,31 +7,27 @@
     android:background="@drawable/bg"
     tools:context="com.example.chengzu.sit305assignment2.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="156dp"
+    <RelativeLayout
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="96dp"
-        android:onClick="GotoStartgameActivity"
-        android:text="Start Game"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:onClick="GotoStartgameActivity"
+            android:text="Start Game" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="156dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="96dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:onClick="GotoSettingActivity"
-        android:text="Setting"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/button"
+            android:onClick="GotoSettingActivity"
+            android:text="Setting" />
+    </RelativeLayout>
+</RelativeLayout>
