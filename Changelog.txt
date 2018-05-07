@@ -217,3 +217,42 @@ portrait and landscap layouts for tablet
 25 eahc day Git hub commits
 reform the final battle between the king with prince leo
 demo video
+Comments in code
+
+May 7th
+====================================
+* In week 9,[Chengzu Dong] has done the process of final battle between the king with prince leo. And [Chengzu Dong] wrote 
+down comments in every activities and every functions for explaining the code. Also, [Chengzu Dong] aim to finish all the 
+code part and layouts within week 9. In week 10, there is only a video need to be finished.
+[Yin neng Du] is nearly finish the layout of portrait and landscape for tablet. Hopefully [Yin neng Du] will finish all of
+the layouts within week 9.
+To sum up, in week 9, we truly have many assignments that need to be done, And we focus on the project of SIT305. Because it 
+is the priority task that we have to complete the project within week 9. And we are going to make the video in week 10. 
+Also, we are high likely to do the code quality check to make the code runs perfectly in week 10. Therefore, we would like 
+to finish the project by week 9.
+
+All new feature added:
+Intent between two activities
+attractive story
+images of the game
+map of the game
+splash screen
+game background music
+Changelog
+Readme
+license file
+app icon
+Gif in Android studio
+passing data between activities
+menu bar
+navigation
+store,load and modify data from external text files
+landsape for the phone layout
+Grading creteria
+reform the final battle between the king with prince leo
+25 eahc day Git hub commits
+
+Still working on for current features:
+portrait and landscap layouts for tablet
+quality check
+demo video
