@@ -9,16 +9,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/relativeLayout1">
+
         <EditText
-            android:layout_marginTop="100dp"
-            android:textAlignment="center"
+            android:id="@+id/editText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText"/>
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:hint="Username:"
+            android:textAlignment="center" />
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="28dp"
         android:layout_below="@+id/relativeLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,7 +30,6 @@
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
             android:background="@color/white"
             android:text="Save" />
 
@@ -41,12 +42,7 @@
             android:layout_centerHorizontal="true"
             android:background="@color/white"
             android:text="Log in"
-
-            android:onClick="gotolist"
-
-
-
-            />
+            android:onClick="gotolist" />
 
     </RelativeLayout>
 </RelativeLayout>
