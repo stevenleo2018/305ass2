@@ -24,38 +24,36 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:id="@+id/relativeLayout2">
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Revenge"
+        android:text="Go to revenge"
+        android:layout_below="@id/b_read"/>
 
-        <Button
-            android:id="@+id/button13"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:onClick="Revenge"
-            android:text="Go to revenge"
-            android:layout_below="@id/b_read" />
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hunting for survive"
+        android:layout_below="@id/button13"
+        android:onClick="gosurvive"/>
 
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:text="Hunting for survive"
-            android:layout_below="@id/button13"
-            android:onClick="gosurvive"/>
-
-        <Button
-            android:id="@+id/b_read"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:text="Have a look" />
-
+    <Button
+        android:id="@+id/b_read"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Have a look"
+        />
     </RelativeLayout>
 </RelativeLayout>
