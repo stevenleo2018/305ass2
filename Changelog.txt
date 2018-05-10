@@ -1,4 +1,3 @@
-
 March 19th
 ====================================
 * Our group made some basic functions from week3.
@@ -270,3 +269,42 @@ Still working on for current features:
 portrait and landscap layouts for tablet [Yinneng Du]
 quality check [Chengzu Dong]
 demo video [Chengzu Dong]
+
+
+May 14th
+====================================
+* In week 10,[Chengzu Dong] has done the all parts and functions includng video[Chengzu Dong]
+
+[Yin neng Du] has done everything for his parts either[Yin neng Du]
+
+To sum up, It was an unforgattable memory that completing this project. it is a huge project based on Android
+Studio, we need to both of layout and code. Which will definitely cost more time than using Unity. Yes, i have to
+confess that we selected a more complicated platform as our developing tool. However, we finished it on time.[Chengzu Dong]
+
+All new feature added:
+Intent between two activities [Chengzu Dong]
+attractive story [Chengzu Dong]
+images of the game [Chengzu Dong]
+map of the game [Chengzu Dong]
+splash screen [Chengzu Dong]
+game background music [Yinneng Du]
+Changelog [Chengzu Dong]
+Readme [Chengzu Dong]
+license file [Chengzu Dong]
+app icon  [Yinneng Du]
+Gif in Android studio [Yinneng Du]
+passing data between activities [Chengzu Dong]
+menu bar [Chengzu Dong]
+navigation [Chengzu Dong]
+store,load and modify data from external text files [Chengzu Dong]
+landsape for the phone layout [Yinneng Du]
+Grading creteria [Chengzu Dong]
+reform the final battle between the king with prince leo [Chengzu Dong]
+25 eahc day Git hub commits [Chengzu Dong] [Yinneng Du]
+portrait and landscap layouts for tablet [Yinneng Du]
+quality check [Chengzu Dong]
+demo video [Chengzu Dong]
+
+Still working on for current features:
+
+
