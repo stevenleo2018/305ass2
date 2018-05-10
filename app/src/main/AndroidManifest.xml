@@ -31,7 +31,12 @@
         <activity android:name=".DatabaseHelper" />
         <activity android:name=".EditDataActivity" />
         <activity android:name=".ListDataActivity" />
-        <activity android:name=".AttackActivity"></activity>
+        <activity android:name=".AttackActivity" />
+        <activity android:name=".StrategyActivity" />
+        <activity android:name=".SpybackActivity" />
+        <activity android:name=".CastleActivity" />
+        <activity android:name=".questionActivity" />
+        <activity android:name=".congratsActivity"></activity>
     </application>
 
 </manifest>

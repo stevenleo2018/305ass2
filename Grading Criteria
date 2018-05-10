@@ -1,0 +1,52 @@
+The grade I am aiming for is HD, for achieving this grade. I have to have these features below: 
+Having at least 25 unique day commits in Git hub  
+Having the detailed changelog.txt that documented the log for every week. And it has list of still woring on and new features added.
+There is not any bugs in the code 
+The license.txt including the author and hyperlink. Also with legal section. 
+The game can provide enough playability for users to play 10 hours. 
+The data in the game can be loaded and save and modify from external data file. 
+The layout should be suitable for portrait and landscape, also it should be suitable for Tablet 
+In the readme.txt, there should have detailed compile instruction and directory structure 
+For the demo video, it should explain the detail of the project.
+And it shows the team SID and names.
+The comments for the code part can be seen anywhere
+
+For D
+Having at least 20 unique day commits in Git hub  
+Having the intermediate changelog.txt that documented the log for every week 
+There is a few bugs in the code 
+The license.txt including the author and hyperlink. But no legal section. 
+The game can provide enough playability for users to play 5 hours. 
+The data in the game can be partly loaded and save and modify from external data file. 
+The layout should be suitable for portrait and landscape
+In the readme.txt, there should have intermediate compile instruction and directory structure 
+For the demo video, it should explain the project.
+And it shows the team SID and names.
+The comments for the code part can be seen in most of places
+
+For C
+Having at least 15 unique day commits in Git hub  
+Having the Basic changelog.txt that documented the log for every week 
+There is a some bugs in the code 
+The license.txt including the author. But no legal section and hyperlink. 
+The game can provide enough playability for users to play 3 hours. 
+The data in the game cannot be loaded and save and modify from external data file. 
+The layout is only suitable for portrait.
+In the readme.txt, there should have basic compile instruction and directory structure 
+For the demo video, it should explain the project.
+And it shows the team SID and names.
+The comments for the code part can be seen in some of places
+
+
+For P
+Having at least 10 unique day commits in Git hub  
+Having the pass level changelog.txt that documented the log for every week 
+There are a lot of bugs in the code 
+The license.txt including the author. But no legal section and hyperlink. 
+The game can provide enough playability for users to play 1 hours. 
+The data in the game cannot be loaded and save and modify from external data file. 
+The layout is only suitable for portrait.
+In the readme.txt, there are not compile instruction and directory structure 
+No video
+And it shows the team SID and names.
+The comments for the code part cannot be seen.

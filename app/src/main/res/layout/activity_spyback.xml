@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.chengzu.sit305assignment2.SpybackActivity">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text=""
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/b_read"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="read the message from spy" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b_read"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/b_read"
+        android:layout_marginBottom="40dp"
+        android:text="Go to the castle"
+        android:onClick="gocastle"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_text"
+        android:layout_marginTop="67dp"
+        app:srcCompat="@drawable/princespy" />
+</RelativeLayout>
