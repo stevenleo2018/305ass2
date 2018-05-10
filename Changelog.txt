@@ -1,4 +1,3 @@
-
 March 19th
 ====================================
 * Our group made some basic functions from week3.
