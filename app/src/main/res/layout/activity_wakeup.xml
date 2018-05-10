@@ -4,55 +4,55 @@
 
 
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="@drawable/wakeup"
-tools:context="com.example.chengzu.sit305assignment2.wakeupActivity">
-<TextView
-    android:id="@+id/tv_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:text="
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wakeup"
+    tools:context="com.example.chengzu.sit305assignment2.wakeupActivity">
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="
 "
-    android:textColor="@color/white"/>
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="36dp"
         android:onClick="gotohunt"
         android:text="Hunting"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4" />
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/button4"
+        android:layout_toEndOf="@id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="32dp"
+        android:layout_centerHorizontal="true"
         android:onClick="Gotodie"
         android:text="Waiting"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        />
 
     <Button
         android:id="@+id/b_read"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="8dp"
         android:text="Hint"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.181"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/button4"
+        android:layout_toStartOf="@id/button4"
+        android:layout_marginRight="20dp"/>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

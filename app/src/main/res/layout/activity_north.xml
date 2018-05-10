@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,42 +11,31 @@
     <EditText
         android:id="@+id/tv_text"
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/red"
         android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/button16"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="128dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="goback2"
         android:text="Hunting"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b_read" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/b_read"/>
 
     <Button
         android:id="@+id/b_read"
         android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="168dp"
-        android:text="look around"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_text" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="look around" />
+</RelativeLayout>
