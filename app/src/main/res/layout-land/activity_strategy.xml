@@ -4,51 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/kingdom"
     tools:context="com.example.chengzu.sit305assignment2.StrategyActivity">
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
-        android:text="TextView" />
+        android:layout_marginTop="41dp" />
 
-    <Button
-        android:id="@+id/button21"
-        android:layout_width="200dp"
+    <RelativeLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="77dp"
-        android:text="Strategy 1" />
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/b_read"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Strategy 1" />
 
-    <Button
-        android:id="@+id/button22"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/button21"
-        android:layout_alignRight="@+id/button21"
-        android:layout_below="@+id/button21"
-        android:layout_marginTop="23dp"
-        android:text="Strategy 1" />
+        <Button
+            android:id="@+id/b_read1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/b_read"
+            android:layout_marginBottom="16dp"
+            android:text="Strategy 2" />
 
-    <Button
-        android:id="@+id/button23"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button22"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
-        android:text="use Strategy 1" />
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b_read"
+            android:text="use Strategy 1"
+            android:onClick="gospy"/>
 
-    <Button
-        android:id="@+id/button24"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button23"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:text="use Strategy 2" />
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="use Strategy 2"
+            android:layout_below="@id/b_read1"
+            android:layout_toRightOf="@id/button23"
+            android:onClick="godie"/>
+    </RelativeLayout>
 </RelativeLayout>
